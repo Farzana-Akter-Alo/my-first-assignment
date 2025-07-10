@@ -229,6 +229,10 @@ span {
 #section-4 {
   background-color: #FFFFFF;
   margin-top: 100px;
+  height: 440px;
+  margin-left: 85px;
+  margin-right: 85px;
+  border-radius: 8px;
 }
 
 
@@ -251,12 +255,19 @@ span {
   border-radius: 8px;
   font-family: raleway;
   margin-bottom: 170px;
-  text-align: center;
-  padding: 0px, auto;
-
+  margin: 0 auto;
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 20px;
 
 }
 
 .div-3 img {
-  width: 550px;
+  width: 500px;
+  height: 240px;
+  margin: 0 auto;
+  display: block;
+  border-radius: 30px;
+
+
 }
