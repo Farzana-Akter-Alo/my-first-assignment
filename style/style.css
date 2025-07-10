@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+#first-section {
+  background-image: url(../Assets/Hero-bg.png);
+
+}
+
+
+
+#nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.nav-text h1 {
+  font-family: inter;
+  font-size: 34px;
+  font-weight: 800;
+  color: #4E47FF;
+}
+
+.nav-btn button {
+  color: #FFFFFF;
+  background-color: #4E47FF;
+  height: 48px;
+  width: 132px;
+  border: none;
+  font-size: 16px;
+  border-radius: 8px;
+  font-family: raleway;
+}
+
+
+.banner {
+  text-align: center;
+  margin-top: 158px;
+}
+
+.banner h2 {
+  font-family: raleway;
+  margin-bottom: 30px;
+  font-size: 45px;
+
+}
+
+.banner button {
+  color: #FFFFFF;
+  background-color: #4E47FF;
+  height: 48px;
+  width: 174px;
+  border: none;
+  font-size: 16px;
+  border-radius: 8px;
+  font-family: raleway;
+  margin-bottom: 200px;
+}
