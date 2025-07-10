@@ -1,12 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 #first-section {
   background-image: url(../Assets/Hero-bg.png);
+  width: 100%;
+
 
 }
 
-
+body {
+  background-color: #eaeaf3;
+}
 
 #nav-container {
   display: flex;
@@ -14,6 +23,8 @@
   align-items: center;
   margin-left: 80px;
   margin-right: 80px;
+  margin-top: 0;
+  padding-top: 35px;
 }
 
 .nav-text h1 {
@@ -42,7 +53,7 @@
 
 .banner h2 {
   font-family: raleway;
-  margin-bottom: 30px;
+  margin-bottom: 35px;
   font-size: 45px;
 
 }
@@ -51,10 +62,102 @@
   color: #FFFFFF;
   background-color: #4E47FF;
   height: 48px;
+  width: 155px;
+  border: none;
+  font-size: 16px;
+  border-radius: 8px;
+  font-family: raleway;
+  margin-bottom: 170px;
+}
+
+
+#banner-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin-top: 80px; */
+  margin-left: 80px;
+  margin-right: 80px;
+
+}
+
+/* banner-2-text{
+  margin-top: 100px;
+} */
+
+#banner-2 {
+  margin-top: 70px;
+}
+
+.banner-img img {
+  width: 303px;
+  height: 228px;
+  border-radius: 25px;
+}
+
+.banner-2-text h3 {
+  font-family: raleway;
+  font-size: 25px;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+
+.banner-2-text p {
+  font-family: raleway;
+  font-weight: regular;
+  color: #25243270;
+  padding-bottom: 15px;
+}
+
+.banner-2-text button {
+  color: #FFFFFF;
+  background-color: #4E47FF;
+  height: 48px;
   width: 174px;
   border: none;
   font-size: 16px;
   border-radius: 8px;
   font-family: raleway;
-  margin-bottom: 200px;
+  /* margin-bottom: 170px; */
+
+}
+
+#section-2 {
+  background-color: #dbdbfcec;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 70px;
+  border-radius: 15px;
+
+
+}
+
+
+#div-container h3 {
+  font-family: raleway;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 50px;
+
+}
+
+.div {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
+  padding-bottom: 30px;
+
+}
+
+.div div h2 {
+  font-family: inter;
+  font-size: 50px;
+  color:#4E47FF;
+}
+
+.div div p{
+  font-family: inter;
+  font-weight: regular;
+  color: #25243270;
 }
