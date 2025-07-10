@@ -14,7 +14,7 @@
 }
 
 body {
-  background-color: #eaeaf3;
+  background-color: #f5f5ff;
 }
 
 #nav-container {
@@ -153,11 +153,110 @@ body {
 .div div h2 {
   font-family: inter;
   font-size: 50px;
-  color:#4E47FF;
+  color: #4E47FF;
 }
 
-.div div p{
+.div div p {
   font-family: inter;
   font-weight: regular;
   color: #25243270;
+}
+
+
+#div-container-2 {
+  font-family: raleway;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 90px;
+}
+
+.div-2 {
+  background-color: #FFFFFF;
+  margin-top: 40px;
+  padding-left: 15px;
+  padding-right: 70px;
+  border-radius: 10px;
+}
+
+#review img {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#review h4 {
+  font-family: inter;
+  font-weight: 800px;
+  padding-bottom: 8px;
+}
+
+#review p {
+  font-size: 15px;
+  color: #1a1927d3;
+  padding-bottom: 20px;
+}
+
+#review-img {
+  display: flex;
+  gap: 12px;
+  padding-bottom: 20px;
+}
+
+
+#review-img img {
+  border-radius: 50px;
+}
+
+
+#review-img p {
+  color: #1a1927d3;
+}
+
+span {
+  color: #25243270;
+}
+
+
+#section-3-0 {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 80px;
+  margin-right: 80px;
+
+}
+
+
+#section-4 {
+  background-color: #FFFFFF;
+  margin-top: 100px;
+}
+
+
+
+.div-3 h2 {
+  font-family: raleway;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.div-3 button {
+  color: #FFFFFF;
+  background-color: #4E47FF;
+  height: 48px;
+  width: 155px;
+  border: none;
+  font-size: 16px;
+  border-radius: 8px;
+  font-family: raleway;
+  margin-bottom: 170px;
+  text-align: center;
+  padding: 0px, auto;
+
+
+}
+
+.div-3 img {
+  width: 550px;
 }
