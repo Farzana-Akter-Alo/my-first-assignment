@@ -43,7 +43,14 @@ body {
   font-size: 16px;
   border-radius: 8px;
   font-family: raleway;
+  cursor: pointer;
 }
+
+
+.nav-btn button:hover {
+  background-color: #7673cf;
+}
+
 
 
 .banner {
@@ -68,7 +75,13 @@ body {
   border-radius: 8px;
   font-family: raleway;
   margin-bottom: 170px;
+  cursor: pointer;
 }
+
+.banner button:hover {
+  background-color: #7673cf;
+}
+
 
 
 #banner-2 {
@@ -118,9 +131,16 @@ body {
   font-size: 16px;
   border-radius: 8px;
   font-family: raleway;
+  cursor: pointer;
   /* margin-bottom: 170px; */
-
 }
+
+
+.banner-2-text button:hover {
+  background-color: #7673cf;
+}
+
+
 
 #section-2 {
   background-color: #dbdbfcec;
@@ -259,8 +279,14 @@ span {
   display: block;
   margin-top: 15px;
   margin-bottom: 20px;
-
+  cursor: pointer;
 }
+
+.div-3 button:hover {
+  background-color: #7673cf;
+}
+
+
 
 .div-3 img {
   width: 500px;
@@ -270,4 +296,129 @@ span {
   border-radius: 30px;
 
 
+}
+
+
+
+#section-5 {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 80px;
+  margin-right: 90px;
+  margin-top: 150px;
+
+}
+
+#input-section label,
+input,
+textarea {
+  display: block;
+  width: 340px;
+  /* height: 40px; */
+  border: none;
+
+
+}
+
+#input-section input,
+textarea {
+  height: 50px;
+  padding-left: 15px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  font-family: inter;
+  color: black;
+  font-size: 12px;
+  border-color: gray;
+}
+
+#input-section textarea {
+  padding-top: 10px;
+  height: 100px;
+
+}
+
+#input-section label {
+  padding-bottom: 5px;
+  font-family: inter;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+
+#input-section button {
+  color: #FFFFFF;
+  background-color: #4E47FF;
+  height: 40px;
+  width: 340px;
+  border: none;
+  font-size: 10px;
+  border-radius: 8px;
+  font-family: raleway;
+  margin-bottom: 170px;
+  margin: 0 auto;
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  cursor: pointer;
+
+}
+
+#input-section button:hover {
+  background-color: #7673cf;
+}
+
+
+#input-section {
+  border: none;
+}
+
+
+#section-5 div h2 {
+  font-family: raleway;
+  /* align-items: center;
+  display: block; */
+  font-size: 70px;
+  margin-top: 90px;
+}
+
+
+#footer-section div h2 {
+  font-family: inter;
+  font-size: 70px;
+  font-weight: 800;
+  color: #4E47FF;
+  text-align: center;
+  padding-top: 80px;
+
+}
+
+#footer-section {
+  background-color: #FFFFFF;
+  margin-top: 40px;
+}
+
+
+#footer-section div p {
+  font-family: raleway;
+  font-weight: regular;
+  color: #25243270;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+#footer-section ul {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+
+#footer-section ul li,
+a {
+  list-style: none;
+  text-decoration: none;
+  color: #25243270;
+  margin-top: 5px;
+  margin-bottom: 70px;
 }
